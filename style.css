@@ -1,0 +1,22 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: indianred;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 24px 70px;
+    background-image: url(https://i.pinimg.com/originals/e7/16/55/e7165502b2a1cf61fa81b20e02bad088.gif);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tittle{
+    position: relative;
+    grid-column: 1/-1;
+    place-self: center;
+    color: lavender;
+}
